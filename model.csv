@@ -1,0 +1,6 @@
+﻿ID,Name,Description,Hierarchy_name,Hierarchy_childAssetModel,prop_dataType,prop_name,prop_type,prop_defaultValue,prop_unit,prop_intervals,prop_expression,prop_expression_variables_name,prop_expression_variables_propertyId
+1,emad11,test11,,,STRING,location,attribute,nolocation,,,,,
+,,,,,DOUBLE,Temperature,measurement,,Celsius,,,,
+,,,,,DOUBLE,averageTemp,metric,,Celsius,5m,avg(var_temp),var_temp,Temperature
+2,emad22,test22,emad,{{emad11}},STRING,Floor_num,attribute,nofloor,,,,,
+,,,,,DOUBLE,averageFloorTemp,metric,,Celsius,5m,avg(var_room_temp),var_room_temp,{{emad11.averageTemp}}

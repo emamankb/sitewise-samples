@@ -1,0 +1,16 @@
+{
+  "name": "sitewise_samples",
+  "version": "1.0.0",
+  "description": "Sample applications for SiteWise",
+  "main": "readwrite.js",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+﻿ID,AssetName,AssetModelName,Association,PropertyName,PropertyAlias,PropertyNotification
+1,sensor1,emad11,gateway1,Temperature,/rpi/temp1,DISABLED
+2,sensor2,emad11,gateway1,Temperature,/rpi/temp2,ENABLED
+3,sensor3,emad11,gateway2,Temperature,/rpi/temp3,ENABLED
+4,gateway1,emad22,,,,
+5,gateway2,emad22,,,,
